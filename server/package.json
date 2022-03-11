@@ -6,7 +6,8 @@
   "author": "Leo Marello",
   "license": "MIT",
   "scripts": {
-    "dev": "node ./index.js"
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
   "dependencies": {
     "@graphql-tools/load-files": "^6.5.3",
@@ -16,5 +17,8 @@
     "graphql": "^16.3.0",
     "graphql-tools": "^8.2.0",
     "mongoose": "^6.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
